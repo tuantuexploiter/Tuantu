@@ -10,7 +10,7 @@ Players.PlayerAdded:Connect(function()
 end)
 
 local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
-local Window = Rayfield:CreateWindow({Name = 'ayin work ui, LoadingTitle = 'anti fun ui'})
+local Window = Rayfield:CreateWindow({Name = 'ayin work ui', LoadingTitle = 'anti fun ui'})
 
 local RepStorage = game:GetService('ReplicatedStorage')
 local Workspace = game:GetService('workspace')
